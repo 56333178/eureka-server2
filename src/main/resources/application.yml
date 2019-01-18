@@ -1,0 +1,17 @@
+server:
+  port: 8887
+eureka:
+  instance:
+    hostname: aitieta.com
+  client:
+    register-with-eureka: true
+    fetch-registry: false
+    service-url:
+      defaultZone: http://root:123456@eureka1:8888/eureka/
+spring:
+  application:
+    name: register-center
+  security:
+    user:
+      name: root
+      password: 123456
