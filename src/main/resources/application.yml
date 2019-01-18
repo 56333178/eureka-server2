@@ -2,7 +2,7 @@ server:
   port: 8887
 eureka:
   instance:
-    hostname: aitieta.com
+    hostname: eureka2
   client:
     register-with-eureka: true
     fetch-registry: false
