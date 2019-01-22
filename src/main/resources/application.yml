@@ -9,7 +9,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://root:123456@aitieta.com:8888/eureka/,http://root:123456@aitieta.com:8887
+      defaultZone: http://root:123456@aitieta.com:8888/eureka/,http://root:123456@aitieta.com:8887/eureka/
 #    eureka-server-read-timeout-seconds: 100000
 #  server:
 #    peer-node-read-timeout-ms: 100000
