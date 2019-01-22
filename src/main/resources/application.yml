@@ -3,11 +3,13 @@ server:
 eureka:
   instance:
     hostname: eureka2
+    lease-renewal-interval-in-seconds: 5
+    lease-expiration-duration-in-seconds: 5
   client:
     register-with-eureka: true
-    fetch-registry: false
+    fetch-registry: true
     service-url:
-      defaultZone: http://root:123456@eureka1:8888/eureka/
+      defaultZone: http://root:123456@aitieta.com:8888/eureka/,http://root:123456@aitieta.com:8887
 spring:
   application:
     name: register-center
