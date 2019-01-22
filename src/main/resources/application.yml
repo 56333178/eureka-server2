@@ -10,9 +10,9 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://root:123456@aitieta.com:8888/eureka/,http://root:123456@aitieta.com:8887
-    eureka-server-read-timeout-seconds: 100000
-  server:
-    peer-node-read-timeout-ms: 100000
+#    eureka-server-read-timeout-seconds: 100000
+#  server:
+#    peer-node-read-timeout-ms: 100000
 spring:
   application:
     name: register-center
