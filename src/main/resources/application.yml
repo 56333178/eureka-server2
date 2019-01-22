@@ -9,7 +9,7 @@ eureka:
     ip-address: aitieta.com
   client:
     register-with-eureka: true
-    fetch-registry: true
+    fetch-registry: false
     service-url:
       defaultZone: http://root:123456@aitieta.com:8888/eureka/,http://root:123456@aitieta.com:8887/eureka/
     eureka-service-url-poll-interval-seconds: 10
