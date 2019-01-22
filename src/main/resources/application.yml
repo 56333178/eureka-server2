@@ -7,9 +7,10 @@ eureka:
     lease-expiration-duration-in-seconds: 5
     instance-id: ${eureka.instance.ip-address}:${server.port}
     ip-address: aitieta.com
+    initial-status: starting
   client:
     register-with-eureka: true
-    fetch-registry: false
+    fetch-registry: true
     service-url:
       defaultZone: http://root:123456@aitieta.com:8888/eureka/,http://root:123456@aitieta.com:8887/eureka/
     eureka-service-url-poll-interval-seconds: 10
