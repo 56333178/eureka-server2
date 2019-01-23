@@ -13,7 +13,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://root:123456@aitieta.com:8888/eureka/,http://root:123456@aitieta.com:8887/eureka/
+      defaultZone: http://root:123456@aitieta.com:8888/eureka/
 #    eureka-service-url-poll-interval-seconds: 10
 #    registry-fetch-interval-seconds: 10
 #    eureka-server-read-timeout-seconds: 100000
